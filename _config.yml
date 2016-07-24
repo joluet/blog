@@ -4,8 +4,8 @@ markdown:            redcarpet
 highlighter:         pygments
 
 # Permalinks
-permalink:           /:title
-relative_permalinks: true
+permalink:           pretty
+#relative_permalinks: true
 
 # Setup
 timezone:            your timezone # eg. Asia/Kathmandu
