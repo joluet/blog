@@ -12,7 +12,7 @@ title: Mickey Theme for Jekyll
       <div class="postMeta-wrapper postMeta-wrapper--frontpage">
         <ul class="postMeta">
           <li class="postMeta-tagline">
-            a minimal theme for Jekyll
+            {{ site.title }}
           </li>
         </ul>
       </div>
@@ -29,7 +29,7 @@ title: Mickey Theme for Jekyll
               <article class="postArticle postArticle--short">
                 {% if post.image.feature %}
                   <a href="{{ post.url }}">
-                    <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                    <div class="postArticle-image" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
                     </div>
                   </a>
                 {% else %}
