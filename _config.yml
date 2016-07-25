@@ -7,6 +7,9 @@ highlighter:         pygments
 permalink:           pretty
 #relative_permalinks: true
 
+language-label:
+  de:                Read in english
+  en:                Auf deutsch lesen
 # Setup
 timezone:            your timezone # eg. Asia/Kathmandu
 locale:              your locale language # eg. en_us
@@ -14,9 +17,9 @@ name:				         site name
 title:               site title
 tagline:             'tagline'
 description:         'description'
-url:                 site url
+url:
 rss:                 rss feed url
-baseurl:             '/'
+baseurl:             ''
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
@@ -50,3 +53,11 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+languages: ["de", "en"]
+default_lang: "de"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
+
+gems:
+  - jekyll-polyglot

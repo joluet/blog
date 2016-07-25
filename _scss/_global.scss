@@ -11,68 +11,65 @@ body {
   }
 }
 
+.language {
+  margin-top: -3*$leading;
+  font-family: $title-secondary-font;
+  font-size: $font-XS;
+}
+
 .brandLogo {
-  background-image: url(../images/logo-white.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  padding: 0;
-  text-indent: -100em;
-  overflow: hidden;
+    background-image: url("../images/logo-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 0;
+    text-indent: -100em;
+    overflow: hidden;
 }
-
 .brandLogo--small {
-  width: 44px;
-  height: 44px;
+    width: 44px;
+    height: 44px;
 }
-
 .brandLogo--black {
-  background-image: url(../images/logo-black.svg);
+    background-image: url("../images/logo-reisende-black.svg");
 }
-
 .textLogo {
-  display: block;
-  background-image: url(../images/logo-text-black.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  padding: 0;
-  text-indent: -100em;
-  overflow: hidden;
+    display: block;
+    background-image: url("../images/logo-reisende-black.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 0;
+    text-indent: -100em;
+    overflow: hidden;
 }
-
 .textLogo--white {
-  background-image: url(../images/logo-text-white.svg);
+    background-image: url("../images/logo-reisende-white.svg");
+    color: #fff;
 }
-
 .textLogo--sidebar {
-  width: 100%;
-  height: auto;
-  background-size: contain;
-  background-position: center;
-  opacity: 0.8;
-
-  &:hover {
-    opacity: 1;
-  }
+    font-size: 26px;
+    @media (max-width: $screen-xs-max) {
+        font-size: 18px;
+    }
 }
-
 .textLogo--frontpage {
-  position: absolute;
-  top: 132px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: $zIndex-5--textlogo-frontpage;
-  margin: 0;
-  width: 276px;
-  height: 50px;
-  background-size: 100%;
-  background-position: 0;
-  opacity: 0.9;
-
-  @media (max-width: $screen-xs-max) {
-    width: 182px;
-    height: 33px;
-    top: 99px;
-  }
+    position: absolute;
+    top: 132px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: $zIndex-5--textlogo-frontpage;
+    margin: 0;
+    width: 500px;
+    height: 50px;
+    background-size: 100%;
+    background-position: 0;
+    opacity: 0.9;
+    font-size: 56px;
+    @media (max-width: $screen-xs-max) {
+        width: 300px;
+        height: 33px;
+        top: 99px;
+        font-size: 40px;
+    }
 }
