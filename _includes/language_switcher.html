@@ -1,0 +1,9 @@
+  <div class="language">
+    {% for tongue in site.languages %}
+    {% if tongue != site.active_lang %}
+      <a href="{% if tongue == site.default_lang %} {{site.url}}{{page.url}} {% else %} {{site.url}}/{{ tongue }}{{page.url}} {% endif %}">
+        {{site.language-label[site.active_lang]}}
+      </a>
+    {% endif %}
+    {% endfor %}
+  </div>

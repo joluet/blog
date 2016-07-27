@@ -12,9 +12,15 @@ body {
 }
 
 .language {
-  margin-top: -3*$leading;
+  margin-top: 0;
   font-family: $title-secondary-font;
   font-size: $font-XS;
+  margin-top: 30px;
+  margin-left: 3%;
+  padding: 12px;
+  border-radius: 99px;
+  background-color: $white;
+  z-index: $zIndex-5--sidebar-toggle-wrapper;
 }
 
 .brandLogo {

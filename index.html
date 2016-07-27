@@ -22,15 +22,6 @@ title: Mickey Theme for Jekyll
 <section class="section--postsWrapper">
   <div class="container">
     <div class="blockGroup">
-      <div class="language">
-        {% for tongue in site.languages %}
-        {% if tongue != site.active_lang %}
-          <a href="{% if tongue == site.default_lang %} {{site.url}}{{page.url}} {% else %} {{site.url}}/{{ tongue }}{{page.url}} {% endif %}">
-            {{site.language-label[site.active_lang]}}
-          </a>
-        {% endif %}
-        {% endfor %}
-      </div>
       <ul class="blockGroup-list">
         {% for post in site.posts %}
           <li class="block">
