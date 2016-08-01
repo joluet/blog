@@ -1,28 +1,24 @@
 //
 // Global
 // --------------------------------------------------
-
-html,
-body {
-  overflow-x: hidden;
-
-  @media (max-width: $screen-xs-max) {
-    padding-right: 0;
-  }
+body,
+html {
+    overflow-x: hidden;
+    @media (max-width: $screen-xs-max) {
+        padding-right: 0;
+    }
 }
-
 .language {
-  margin-top: 0;
-  font-family: $title-secondary-font;
-  font-size: $font-XS;
-  margin-top: 30px;
-  margin-left: 3%;
-  padding: 12px;
-  border-radius: 99px;
-  background-color: $white;
-  z-index: $zIndex-5--sidebar-toggle-wrapper;
+    margin-top: 0;
+    font-family: $title-secondary-font;
+    font-size: $font-XS;
+    margin-top: 30px;
+    margin-left: 3%;
+    padding: 12px;
+    border-radius: 99px;
+    background-color: $white;
+    z-index: $zIndex-5--sidebar-toggle-wrapper;
 }
-
 .brandLogo {
     background-image: url("../images/logo-white.svg");
     background-size: contain;
@@ -39,9 +35,8 @@ body {
 .brandLogo--black {
     background-image: url("../images/logo-reisende-black.svg");
 }
-.textLogo {
+.logo {
     display: block;
-    background-image: url("../images/logo-reisende-black.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -54,27 +49,31 @@ body {
     color: #fff;
 }
 .textLogo--sidebar {
-    font-size: 26px;
-    @media (max-width: $screen-xs-max) {
-        font-size: 18px;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
     }
 }
-.textLogo--frontpage {
+.logo--frontpage {
     position: absolute;
-    top: 132px;
+    top: 125px;
     left: 50%;
     transform: translateX(-50%);
     z-index: $zIndex-5--textlogo-frontpage;
     margin: 0;
     width: 500px;
-    height: 50px;
+    height: 63px;
     background-size: 100%;
     background-position: 0;
-    opacity: 0.9;
+    opacity: 1.0;
     font-size: 56px;
     @media (max-width: $screen-xs-max) {
         width: 300px;
-        height: 33px;
+        height: 38px;
         top: 99px;
         font-size: 40px;
     }

@@ -14,7 +14,9 @@ language-label:
 timezone:            your timezone # eg. Asia/Kathmandu
 locale:              your locale language # eg. en_us
 name:				         site name
-title:               site title
+title:
+  de:                Wir berichten von unserer Reise durch Südostasien
+  en:                We are writing about our travel experiences in Southeast Asia
 tagline:             'tagline'
 description:         'description'
 url:
