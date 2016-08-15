@@ -1,6 +1,6 @@
 <nav role="navigation" class="sidebar sidebar--right">
     <a href="{{site.baseurl}}">
-        <img class="logo logo--sidebar" src="{% if site.active_lang == site.default_lang %} /assets/images/logo-reisende-white.svg {% else %} /assets/images/logo-travelling-white.svg {% endif %}" />
+        <img class="logo logo--sidebar" src="/assets/images/logo-backpackers-white.svg" />
     </a>
     <ul class="sidebar-recentPosts">
         {% for post in site.posts offset:0 limit:10 %} {% if post.title == page.title %}

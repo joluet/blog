@@ -33,7 +33,7 @@ html {
     height: 44px;
 }
 .brandLogo--black {
-    background-image: url("../images/logo-reisende-black.svg");
+    background-image: url("../images/logo-noun-black.svg");
 }
 .logo {
     display: block;
@@ -44,13 +44,9 @@ html {
     text-indent: -100em;
     overflow: hidden;
 }
-.textLogo--white {
-    background-image: url("../images/logo-reisende-white.svg");
-    color: #fff;
-}
-.textLogo--sidebar {
+.logo--sidebar {
     width: 100%;
-    height: auto;
+    height: 60px;
     background-size: contain;
     background-position: center;
     opacity: 0.8;
@@ -60,13 +56,13 @@ html {
 }
 .logo--frontpage {
     position: absolute;
-    top: 125px;
+    top: 70px;
     left: 50%;
     transform: translateX(-50%);
     z-index: $zIndex-5--textlogo-frontpage;
     margin: 0;
-    width: 500px;
-    height: 63px;
+    width: 380px;
+    height: auto;
     background-size: 100%;
     background-position: 0;
     opacity: 1.0;
