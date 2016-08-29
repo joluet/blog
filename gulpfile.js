@@ -11,7 +11,6 @@ var gulp = require('gulp'),
     cp = require('child_process');
     deploy = require("gulp-gh-pages");
 
-
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
