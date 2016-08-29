@@ -9,6 +9,7 @@ var gulp = require('gulp'),
     parallel = require("concurrent-transform"),
     os = require("os"),
     cp = require('child_process');
+    deploy = require("gulp-gh-pages");
 
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -102,3 +103,8 @@ gulp.task('watch', function() {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['thumbnails', 'browser-sync', 'watch']);
+
+gulp.task("deploy", ["jekyll-build"], function () {
+    return gulp.src("./_site/**/*")
+        .pipe(deploy());
+});
