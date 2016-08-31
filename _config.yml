@@ -17,6 +17,18 @@ name:				         site name
 title:
   de:                Ein Tagebuch für unsere Reise durch Südostasien
   en:                A travel journal for our Southeast Asia travels
+subscribe_title:
+  de:                Bleib in Verbindung
+  en:                Stay in touch
+subscribe:
+  de:                Hat dir dieser Beitrag gefallen? Lass dich per Email über neue Beiträge benachrichtigen.
+  en:                Did you enjoy reading this? Sign up for email notifications when we publish new blog posts.
+subscribe_email:
+  de:                Deine Email-Adresse
+  en:                Your email address
+subscribe_button:
+  de:                Benachrichtigung per Email
+  en:                Get notified by email
 tagline:             'tagline'
 description:         'description'
 url:
