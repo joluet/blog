@@ -39,7 +39,7 @@ baseurl_featured_img: '/blog/assets/images/hero/'
 baseurl_featured_thumbnail: '/blog/assets/images/thumbnail/'
 baseurl_javascripts: '/blog/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-disqus:              disqus_shortname # get it on https://disqus.com/admin/
+disqus:              ina-jonas # get it on https://disqus.com/admin/
 
 author:
   name:           	 your name
