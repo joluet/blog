@@ -14,6 +14,9 @@ language-label:
 timezone:            your timezone # eg. Asia/Kathmandu
 locale:              your locale language # eg. en_us
 name:				         site name
+by:
+  de:                Von
+  en:                By
 title:
   de:                Ein Tagebuch für unsere Reise durch Südostasien
   en:                A travel journal for our Southeast Asia travels
@@ -42,7 +45,7 @@ icon:                your site icon path # /assets/img/icon.png [best 300px X 30
 disqus:              ina-jonas # get it on https://disqus.com/admin/
 
 author:
-  name:           	 your name
+  name:           	 Jonas
   url:            	 your site url
   facebook:          username
   twitter:           username
