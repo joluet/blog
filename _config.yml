@@ -32,9 +32,9 @@ subscribe_email:
 subscribe_button:
   de:                Benachrichtigung per Email
   en:                Get notified by email
-tagline:             'tagline'
-description:         'description'
-url:
+tagline:             'A travel journal for our Southeast Asia travels'
+description:         ''
+url:                 'http://www.wirsindreisen.de'
 rss:                 rss feed url
 baseurl:             '/blog'
 baseurl_posts_img:   '/blog/assets/images/posts/'
