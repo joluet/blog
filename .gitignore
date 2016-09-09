@@ -1,5 +1,8 @@
 _site
 .sass-cache
 
+# Used for deployment
+.publish
+
 # node
 node_modules
