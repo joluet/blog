@@ -7,7 +7,7 @@ excerpt: "It’s a typical day in September. The sky is grey and a cold wind is 
 categories: London
 tags:
 image:
-  feature: map.jpg
+  feature: phone_booth.jpg
   topPosition: -50px
 bgContrast: dark
 author: Ina & Jonas

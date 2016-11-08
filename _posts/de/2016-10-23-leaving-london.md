@@ -7,7 +7,7 @@ excerpt: "Der Himmel ist grau und ein kalter Wind sorgt für ungemütliche Stimm
 categories: London
 tags:
 image:
-  feature: map.jpg
+  feature: phone_booth.jpg
   topPosition: -50px
 bgContrast: dark
 author: Ina & Jonas
