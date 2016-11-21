@@ -430,13 +430,8 @@ hr {
 
 .img {
   margin-top: 1.5rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.img--fullContainer img {
-  width: 100%;
+  width: 80%;
+  height: auto;
 }
 
 .img--halfContainerLeft {

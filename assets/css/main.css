@@ -428,35 +428,34 @@ hr {
   color: #fff;
 }
 
-.img {
-  margin-top: 1.5rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.img--fullContainer--extraSpace {
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-bottom: 33px;
 }
 
-.img--fullContainer img {
+.img--fullContainer {
   width: 100%;
+  float: left;
+  height: auto;
+  padding-bottom: 6px;
 }
 
 .img--halfContainerLeft {
-  background-size: 100%;
+  width: 50%;
+  float: left;
   height: auto;
-  margin-top: 6px;
-  margin-bottom: 1.5rem;
-  padding-right: 3px !important;
-  padding-left: 0px !important;
-  padding-top: 0px;
+  padding-right: 3px;
+  margin-bottom: 20px;
 }
 
 .img--halfContainerRight {
-  background-size: 100%;
+  width: 50%;
+  float: left;
   height: auto;
-  margin-top: 6px;
-  margin-bottom: 1.5rem;
-  padding-left: 3px !important;
-  padding-right: 0px !important;
-  padding-top: 0px;
+  padding-left: 3px;
+  margin-bottom: 33px;
 }
 
 .img--5xLeading {
