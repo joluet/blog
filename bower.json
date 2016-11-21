@@ -1,0 +1,23 @@
+{
+  "name": "wirsindreisen.de",
+  "description": "Ina & Jonas auf Reisen",
+  "main": "",
+  "authors": [
+    "Jonas & Ina"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/joluet/blog",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fluidbox": "^2.0.4",
+    "query": "^0.0.2",
+    "jquery-throttle-debounce": "*"
+  }
+}
