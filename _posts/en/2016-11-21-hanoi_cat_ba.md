@@ -4,7 +4,7 @@ title:  About Peaceful Dragons and Vietnamese Dortmund Fans
 date:   2016-11-21 01:00:00
 last_modified_at:  2016-11-21 01:00:00
 excerpt:
-categories: Hanoi
+categories: Vietnam
 tags:
 image:
   feature: hanoi_hoan_kiem_dark.jpg

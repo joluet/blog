@@ -447,7 +447,7 @@ hr {
   float: left;
   height: auto;
   padding-right: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .img--halfContainerRight {
@@ -455,7 +455,7 @@ hr {
   float: left;
   height: auto;
   padding-left: 3px;
-  margin-bottom: 33px;
+  margin-bottom: 6px;
 }
 
 .img--5xLeading {

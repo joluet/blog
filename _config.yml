@@ -38,6 +38,7 @@ url:                 'http://www.wirsindreisen.de'
 rss:                 rss feed url
 baseurl:             '/blog'
 baseurl_posts_img:   '/blog/assets/images/posts/'
+baseurl_posts_img_thumbnail: '/blog/assets/images/posts/thumbnail/'
 baseurl_featured_img: '/blog/assets/images/hero/'
 baseurl_featured_thumbnail: '/blog/assets/images/thumbnail/'
 baseurl_javascripts: '/blog/assets/javascripts/'
