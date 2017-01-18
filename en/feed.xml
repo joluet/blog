@@ -7,6 +7,17 @@
 		<atom:link href="http://www.wirsindreisen.de/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>George Town</title>
+				
+				
+					<description></description>
+				
+				<pubDate>Wed, 18 Jan 2017 01:00:00 +0000</pubDate>
+				<link>http://www.wirsindreisen.de/malaysia/2017/01/18/george_town/</link>
+				<guid isPermaLink="true">http://www.wirsindreisen.de/malaysia/2017/01/18/george_town/</guid>
+			</item>
+		
+			<item>
 				<title>Kuala Lumpur and Langkawi</title>
 				
 				
@@ -106,17 +117,6 @@
 				<pubDate>Tue, 08 Nov 2016 01:00:00 +0000</pubDate>
 				<link>http://www.wirsindreisen.de/route/2016/11/08/destinations/</link>
 				<guid isPermaLink="true">http://www.wirsindreisen.de/route/2016/11/08/destinations/</guid>
-			</item>
-		
-			<item>
-				<title>Keep Calm and Carry On</title>
-				
-				
-					<description>It’s a typical day in September. The sky is grey and a cold wind is blowing.</description>
-				
-				<pubDate>Sun, 23 Oct 2016 01:00:00 +0000</pubDate>
-				<link>http://www.wirsindreisen.de/london/2016/10/23/leaving-london/</link>
-				<guid isPermaLink="true">http://www.wirsindreisen.de/london/2016/10/23/leaving-london/</guid>
 			</item>
 		
 	</channel>
