@@ -7,6 +7,17 @@
 		<atom:link href="http://www.wirsindreisen.de/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Dschungel-Expeditionen und Afternoon Tea in den Cameron Highlands</title>
+				
+				
+					<description>“Temporary Closing of the State Park Forest” stand in großen schwarzen Buchstaben auf dem Schild, welches uns den Weg versperrte.</description>
+				
+				<pubDate>Wed, 25 Jan 2017 01:00:00 +0000</pubDate>
+				<link>http://www.wirsindreisen.de/malaysia/2017/01/25/cameron_highlands/</link>
+				<guid isPermaLink="true">http://www.wirsindreisen.de/malaysia/2017/01/25/cameron_highlands/</guid>
+			</item>
+		
+			<item>
 				<title>Schauriges aus George Town</title>
 				
 				
@@ -103,17 +114,6 @@
 				<pubDate>Tue, 15 Nov 2016 01:00:00 +0000</pubDate>
 				<link>http://www.wirsindreisen.de/vietnam/2016/11/15/hanoi/</link>
 				<guid isPermaLink="true">http://www.wirsindreisen.de/vietnam/2016/11/15/hanoi/</guid>
-			</item>
-		
-			<item>
-				<title>Unsere Reiseroute</title>
-				
-				
-					<description>Wir fahren gerade mit dem ICE von Oldenburg nach Frankfurt von wo es morgen dann über Doha (Qatar) und Bangkok nach Hanoi in Vietnam geht.</description>
-				
-				<pubDate>Tue, 08 Nov 2016 01:00:00 +0000</pubDate>
-				<link>http://www.wirsindreisen.de/route/2016/11/08/destinations/</link>
-				<guid isPermaLink="true">http://www.wirsindreisen.de/route/2016/11/08/destinations/</guid>
 			</item>
 		
 	</channel>

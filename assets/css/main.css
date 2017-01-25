@@ -428,12 +428,6 @@ hr {
   color: #fff;
 }
 
-.rotate90 {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
 .img--fullContainer--extraSpace {
   width: 100%;
   float: left;
@@ -1719,7 +1713,7 @@ html {
 .section-backgroundImage .post-featuredImage {
   min-width: 100%;
   min-height: 28.5rem;
-  width: 2000px;
+  width: 1500px;
   height: auto;
   position: fixed;
   left: 50%;
