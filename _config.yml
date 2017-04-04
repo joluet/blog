@@ -13,25 +13,13 @@ language-label:
 # Setup
 timezone:            your timezone # eg. Asia/Kathmandu
 locale:              your locale language # eg. en_us
-name:				         site name
-by:
-  de:                Von
-  en:                By
-title:
-  de:                Ein Tagebuch für unsere Reise durch Südostasien
-  en:                A travel journal for our Southeast Asia travels
-subscribe_title:
-  de:                Bleib in Verbindung
-  en:                Stay in touch
-subscribe:
-  de:                Hat dir dieser Beitrag gefallen? Lass dich per Email über neue Beiträge benachrichtigen.
-  en:                Did you enjoy reading this? Sign up for email notifications when we publish new blog posts.
-subscribe_email:
-  de:                Deine Email-Adresse
-  en:                Your email address
-subscribe_button:
-  de:                Benachrichtigung per Email
-  en:                Get notified by email
+name:				         Ina und Jonas auf Reisen
+by:                  Von
+title:               Ein Tagebuch für unsere Reise durch Südostasien
+subscribe_title:     Bleib in Verbindung
+subscribe:           Hat dir dieser Beitrag gefallen? Lass dich per Email über neue Beiträge benachrichtigen.
+subscribe_email:     Deine Email-Adresse
+subscribe_button:    Benachrichtigung per Email
 tagline:             'A travel journal for our Southeast Asia travels'
 description:         ''
 url:                 'http://www.wirsindreisen.de'
