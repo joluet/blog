@@ -7,6 +7,17 @@
 		<atom:link href="http://www.wirsindreisen.de/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Es grünt so grün...</title>
+				
+				
+					<description>Surfen und tauchen auf Lombok und den Gili-Inseln</description>
+				
+				<pubDate>Tue, 30 May 2017 01:00:00 +0000</pubDate>
+				<link>http://www.wirsindreisen.de/indonesien/2017/05/30/lombok/</link>
+				<guid isPermaLink="true">http://www.wirsindreisen.de/indonesien/2017/05/30/lombok/</guid>
+			</item>
+		
+			<item>
 				<title>Elefantös</title>
 				
 				
@@ -103,17 +114,6 @@
 				<pubDate>Wed, 25 Jan 2017 01:00:00 +0000</pubDate>
 				<link>http://www.wirsindreisen.de/malaysia/2017/01/25/cameron_highlands/</link>
 				<guid isPermaLink="true">http://www.wirsindreisen.de/malaysia/2017/01/25/cameron_highlands/</guid>
-			</item>
-		
-			<item>
-				<title>Schauriges aus George Town</title>
-				
-				
-					<description>&#39;Kennst du Ratchadaphisek?&#39; fragte mich der alte, halbnackte Mann...</description>
-				
-				<pubDate>Wed, 18 Jan 2017 01:00:00 +0000</pubDate>
-				<link>http://www.wirsindreisen.de/malaysia/2017/01/18/george_town/</link>
-				<guid isPermaLink="true">http://www.wirsindreisen.de/malaysia/2017/01/18/george_town/</guid>
 			</item>
 		
 	</channel>
